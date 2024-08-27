@@ -106,6 +106,40 @@ $$
 \end{split}
 $$
 
+### Muscle Gain
+
+The Table below shows the diet allocation for muscle gain:
+
+| Gender | Carbohydrates (*g/kg*) | Proteins (*g/kg*) | Fats (*g/kg*) |
+| ------ | ---------------------- | ----------------- | ------------- |
+| Man    | 3.5-4.5                | 1.5-2.0           | 1.0           |
+| Woman  | 3.0-3.5                | 1.5               | 1.0           |
+
+For example, i am a man, and i want to gain muscle, i can use the diet allocation in the first row of the table. my wight is 66kg, so i can calculate the diet allocation for me:
+
+$$
+\begin{split}
+  C &= 4.5 \times 66 = 297 \\
+  P &= 2.0 \times 66 = 132  \\
+  F &= 1.0 \times 66 = 66 \\
+\end{split}
+$$
+
+we use the equation (4) to calculate the heat input from food:
+
+$$
+\begin{split}
+  C \times 4.05 + P \times 3.7 + F \times 9.25 &= Q_{\text{basal}} + Q_{\text{activity}} \\
+  297 \times 4.05 + 132 \times 3.7 + 66 \times 9.25 &= Q_{\text{basal}} + Q_{\text{activity}} \\
+  1202.85 + 488.4 + 609 &= Q_{\text{basal}} + Q_{\text{activity}} \\
+  2300.25 &= Q_{\text{basal}} + Q_{\text{activity}} \\
+\end{split}
+$$
+
+## Conclusion
+
+Based on the heat balance equation, my input heat ranges between 1521.95 and 2300.25 kcal/day. I can adjust my diet allocation based on my goal, such as weight loss or muscle gain. By monitoring my food intake and body weight, I can better estimate the heat input components related to basal metabolism and physical activity. Then, I can adjust my diet allocation to achieve my goal.
+
 ## Reference
 
 - [健身新手的饮食完全手册-B站版](https://www.bilibili.com/video/BV1yX4y1q7LP/)
