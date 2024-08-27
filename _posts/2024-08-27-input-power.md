@@ -72,6 +72,40 @@ One issue is that calculating $$Q_{\text{basal}}$$ and $$Q_{\text{activity}}$$ c
 
 By monitoring these changes, you can better estimate the heat input components related to basal metabolism and physical activity.
 
+## Diet allocation for Weight Loss and Muscle Gain
+
+Based on the heat balance equation for the *CPF* (Carbohydrates, Proteins, and Fats) components, we can adjust the diet allocation to achieve different goals, such as weight loss or muscle gain. Here are some general guidelines for diet allocation based on practical experiences.
+
+### Weight Loss
+
+The Table below shows the diet allocation for weight loss:
+
+| Gender | Phase | Carbohydrates (*g/kg*) | Proteins (*g/kg*) | Fats (*g/kg*) |
+| ------ | ----- | ---------------------- | ----------------- |
+| Man    | head  | 2.5-3.0                | 1.5               | 0.8           |
+| Man    | last  | 2.0-2.5                | 1.5               | 0.8           |
+| Woman  | head  | 2.5-3.0                | 1.2-1.5           | 0.8           |
+| Woman  | last  | 2.0-2.5                | 1.2-1.5           | 0.8           |
+
+For example, i am man, and i want to lose weight, i can use the diet allocation in the first row of the table. my wight is 66kg, so i can calculate the diet allocation for me:
+
+$$ C = 2.5 \times 66 = 165 $$
+
+$$ P = 1.5 \times 66 = 99 $$
+
+$$ F = 0.8 \times 66 = 52.8 $$
+
+we use the equation (4) to calculate the heat input from food:
+
+$$
+\begin{split}
+  C \times 4.05 + P \times 3.7 + F \times 9.25 &= Q_{\text{basal}} + Q_{\text{activity}} \\
+  165 \times 4.05 + 99 \times 3.7 + 52.8 \times 9.25 &= Q_{\text{basal}} + Q_{\text{activity}} \\
+  667.25 + 366.3 + 488.4 &= Q_{\text{basal}} + Q_{\text{activity}} \\
+  1521.95 &= Q_{\text{basal}} + Q_{\text{activity}} \\
+\end{split}
+$$
+
 ## Reference
 
 - [健身新手的饮食完全手册-B站版](https://www.bilibili.com/video/BV1yX4y1q7LP/)
