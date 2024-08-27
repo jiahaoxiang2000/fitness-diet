@@ -11,4 +11,3 @@ When I want to efficiently control my body, to make it more energetic or healthi
 ## The Goal
 
 The goal of this blog is to analyze food intake to make the body healthier, more energetic, and more efficient.
-
